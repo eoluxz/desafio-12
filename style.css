@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&family=Teko:wght@300..700&display=swap');
+
+:root {
+   --cor-primaria: #000000;
+   --cor-secundaria: #F6F6F6;
+   --cor-terciaria: #00ff80; 
+   --cor-hover: #353f35;
+   --fonte-principal:"Teko", sans-serif; 
+   --fonte-secundaria: "Kode Mono", monospace;
+}
+*{
+   margin: 0;
+   padding: 0;
+}
+
+.cabecalho__menu {
+    position:fixed;
+    z-index: 1000;
+    top:0;
+    width: 100%;
+    background-color: #f0037a80;
+    overflow: hidden;
+}
+
+.cabecalho__menu__link {
+    float: left;
+    display: block;
+    color: white;
+    padding: 14px 20px;
+    text-align: center;
+    text-decoration: none;
+}
+
+h1 {
+    color: #f0037a80;
+}
+
+section {
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    padding: 60px 10px 0 10px;
+    
+}
+
+ol {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.cabecalho__menu__link:hover {
+    background-color: #6200ffb0;
+}
+
+p:hover {
+    font-size: 30px;
+}
